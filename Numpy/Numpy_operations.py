@@ -3,11 +3,11 @@
 Created on Thu Apr 16 14:38:34 2020
 
 @author: KarthikMummidisetti
+
+NumPy Operations
 """
 
 """ 
-NumPy Operations
-
 Vectors and matrices
 """
 
@@ -35,3 +35,16 @@ my_mat_tup = np.array([(1.5,2,3), (4,5,6)])
 print("We write b = np.array([(1.5,2,3), (4,5,6)])")
 print("Matrix made from tuples, not lists\n---------------------------------------")
 print(my_mat_tup)
+
+
+""" 
+arange and linspace
+"""
+
+print("A series of numbers:",np.arange(5,16)) # A series of numbers from low to high
+print("Numbers spaced apart by 2:",np.arange(0,11,2)) # Numbers spaced apart by 2
+print("Numbers spaced apart by float:",np.arange(0,11,2.5)) # Numbers spaced apart by 2.5
+print("Every 5th number from 50 in reverse order\n",np.arange(50,-1,-5))
+
+print("21 linearly spaced numbers between 1 and 5\n--------------------------------------------")
+print(np.linspace(1,5,21))
